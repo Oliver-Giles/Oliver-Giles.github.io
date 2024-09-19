@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(246, 230, 210);
+}
+.hero-text {
+    font-size: 30px;
+    color: white;
+    margin-left: 20px;
+    text-align: justify;
+
+}
+
+.pageHeader {
+    font-size: 40px;
+    color: black;
+    margin-left: 20px;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Pizzas/Pizza-My\ First\ Website.jpg");
+    height: 510px;
+    width: vmax; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .navbar {
+    background-color: rgb(15, 16, 15);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0px 5px;
+    padding: 10px 20px;
+    display: inline-block;
+    width: 97%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .orderButton {
+    display: block;
+    
+  }
+  .orderNow {
+    background-color:rgb(161, 48, 48);
+    border: none;
+    color: white;
+    padding: 20px 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+  }
+
+  .orderNow:hover {
+    background-color: rgb(101, 45, 45);
+  }
+
+  .mainPageQuote {
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding-top: 60px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .author {
+    font-size: 20px;
+  }
+
+  .newsHeader{ 
+    font-size: 25px;
+  }
+
+  .row {
+    margin: 8px -16px;
+  }
+
+
+  .column {
+    float: left;
+    width: 25%;
+    padding: 15px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .content {
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 3px;
+  }
