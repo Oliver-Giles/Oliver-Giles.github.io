@@ -1,12 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-    background-color: rgb(246, 230, 210);
+    background-color: #ffffff;
 }
 .hero-text {
     font-size: 30px;
     color: white;
     margin-left: 20px;
     text-align: justify;
-
 }
 
 .pageHeader {
@@ -31,18 +34,20 @@ body {
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    margin: 0px 5px;
-    padding: 10px 20px;
+    margin: auto;
+    padding: 7px 14px;
+    border-radius: 5px;
     display: inline-block;
-    width: 97%;
+    width: 100%;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    border-radius: 5px;
     overflow: hidden;
-    background-color: #333;
+    background-color: #232323;
   }
   
   li {
@@ -87,24 +92,30 @@ ul {
     padding-top: 60px;
     text-align: center;
     font-size: 30px;
+    color: black;
   }
 
   .author {
     font-size: 20px;
   }
 
+  .contactUsText {
+    color:black;
+  }
+
   .newsHeader{ 
+    color: black;
     font-size: 25px;
   }
 
   .row {
-    margin: 8px -16px;
+    margin: auto;
   }
 
 
   .column {
     float: left;
-    width: 25%;
+    width: 33%;
     padding: 15px;
   }
   
@@ -115,7 +126,22 @@ ul {
   }
   
   .content {
-    border: 2px solid;
-    border-radius: 5px;
+    border: none solid;
+    border-radius: 8px;
     padding: 3px;
+    background-color: #d6d6d6;
+    box-shadow: 1px 1px 1px;
   }
+
+  @media screen and (max-width: 992px) {
+    .column {
+     width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+    }
+
